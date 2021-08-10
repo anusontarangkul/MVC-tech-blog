@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Blog</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
@@ -21,8 +22,10 @@
         </nav>
         <h1>The Tech Blog</h1>
     </header>
+    <main>
+        {{{body}}}
+    </main>
 
-    {{{body}}}
     {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
     {{/if}}
