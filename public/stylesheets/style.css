@@ -127,3 +127,11 @@ textarea {
   color: #a2e4b8;
   border-radius: 10px;
 }
+
+.post div {
+  margin: 10px;
+}
+
+.post div p {
+  margin-bottom: 5px;
+}
