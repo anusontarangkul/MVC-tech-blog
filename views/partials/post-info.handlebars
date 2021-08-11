@@ -3,11 +3,10 @@
         <h3>{{title}}</h3>
     </div>
     <div class="meta">
-        by {{user.username}} on {{created_at}}
+        by {{user.username}} on {{format_date date_created}}
     </div>
     <div>
         <p>{{content}}</p>
         <a href="/post/{{id}}">See post</a>
-        <a>{{comments.length}}</a>
     </div>
 </article>
